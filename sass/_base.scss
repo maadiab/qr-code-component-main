@@ -1,0 +1,37 @@
+
+
+
+
+
+$color-White: hsl(0, 0%, 100%);
+$color-Light-gray: hsl(212, 45%, 89%);
+$color-Grayish-blue: hsl(220, 15%, 55%);
+$color-Dark-blue: hsl(218, 44%, 22%);
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::before,
+::after{
+    box-sizing: border-box;
+
+}
+
+
+html{
+    box-sizing: inherit;
+    font-size: 62.5%;
+}
+
+
+body{
+    font-family: 'Outfit';
+
+    background-color: $color-Light-gray;
+    max-height: 100%;
+
+}
